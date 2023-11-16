@@ -9,7 +9,7 @@
           Open Second Modal
         </button>
         <button data-bs-toggle="modal" data-bs-target="#modalThree" class="btn btn-outline-info">
-          Open Second Modal
+          Open Third Modal
         </button>
       </div>
     </section>
@@ -39,7 +39,6 @@
     <template #modalTitle>
       Modal Three
     </template>
-
   </ModalComponent>
 </template>
 
@@ -49,7 +48,9 @@ import ModalComponent from '../components/ModalComponent.vue';
 
 export default {
   setup() {
-    return {};
+    return {
+
+    };
   },
   components: { ModalComponent, CatForm }
 }

@@ -36,7 +36,9 @@ export default {
   },
   setup() {
     return {
+      closeModal() {
 
+      }
     }
   }
 }
